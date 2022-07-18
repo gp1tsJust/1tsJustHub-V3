@@ -169,13 +169,58 @@ end)
 
 
 section3:addKeybind("Dragon Crush Glich", Enum.KeyCode.K, function()
-	print("ciao")
+	local plr = game:GetService("Players").LocalPlayer
+	local mouse = plr:GetMouse()
+	local place = game.PlaceId
+	Character = game.Players.LocalPlayer
+	Players = game.Players.LocalPlayer.Character
+	MouseFunction = game:GetService("Players").LocalPlayer:GetMouse()
+
+
+	
+			Players.Humanoid:EquipTool(Character.Backpack["Dragon Crush"])
+			Players["Dragon Crush"]:Activate()
+			game.Workspace.Live[Character.Name]["Dragon Crush"].Activator["Flip"]:Destroy()
+			wait()
+
+
 end)
 
 
 section3:addKeybind("Dragon Throw Glich", Enum.KeyCode.J, function()
-	print("ciao")
+	local plr = game:GetService("Players").LocalPlayer
+	local mouse = plr:GetMouse()
+	local place = game.PlaceId
+	Character = game.Players.LocalPlayer
+	Players = game.Players.LocalPlayer.Character
+	MouseFunction = game:GetService("Players").LocalPlayer:GetMouse()
+
+
+	
+			Players.Humanoid:EquipTool(Character.Backpack["Dragon Throw"])
+			Players["Dragon Throw"]:Activate()
+			game.Workspace.Live[Character.Name]["Dragon Throw"].Activator["Flip"]:Destroy()
+			wait()
+
+
 end)
+
+section3:addKeybind("Bone Crush Glich", Enum.KeyCode.B, function()
+	local lplr = game.Players.LocalPlayer
+local plr = game:GetService("Players").LocalPlayer
+	local mouse = plr:GetMouse()
+	local place = game.PlaceId
+	Character = game.Players.LocalPlayer
+	Players = game.Players.LocalPlayer.Character
+	MouseFunction = game:GetService("Players").LocalPlayer:GetMouse()
+
+Players.Humanoid:EquipTool(Character.Backpack["Bone Crush"])
+			Players["Bone Crush"]:Activate()
+lplr.Character["Bone Crush"].Activator.Crash:Destroy()
+
+
+end)
+
 
 
 
