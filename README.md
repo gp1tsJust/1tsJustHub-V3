@@ -727,7 +727,7 @@ section5:addButton("Prove 1tsJustHub V1", function()
 end)
 
 section5:addButton("Prove 1tsJustHub V2", function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/1tsJustHub-V2-DBZ/main/README.md"), true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/per-preservare-la-hub-V2/main/README.md"), true))()
 end)
 
 
