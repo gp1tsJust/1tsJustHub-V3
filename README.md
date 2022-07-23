@@ -1,3 +1,11 @@
+if not game:IsLoaded() then game.Loaded:wait() end
+
+local FinalStandTable = {536102540, 569994010, 2050207304, 882399924, 2046990924, 478132461, 3552157537, 2651456105, 3565304751, 535527772, 882375367, 3552158750}
+if not table.find(FinalStandTable, game.PlaceId) then return end
+
+
+
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "1tsJusthub";
     Text = "Loading!";
